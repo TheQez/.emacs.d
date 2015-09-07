@@ -9,8 +9,9 @@
 
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
-;;Packages
+;Packages
 (require 'init-evil)
+(require 'init-org)
 
 ;;Ui stuff
 (require 'init-ui)
