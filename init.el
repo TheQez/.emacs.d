@@ -12,6 +12,7 @@
 ;Packages
 (require 'init-evil)
 (require 'init-org)
+(require 'init-powerline)
 
 ;;Ui stuff
 (require 'init-ui)
