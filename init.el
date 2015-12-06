@@ -19,5 +19,6 @@
 
 ;;Modes
 (require 'init-c)
+(require 'init-latex)
 
 (provide 'init)
