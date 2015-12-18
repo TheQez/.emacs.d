@@ -9,15 +9,15 @@
 	(sequence "FIX" "|" "DONE")))
 
 (setq org-todo-keyword-faces
-      '(("TODO" . "firebrick2")
+      '(("TODO" . "firebrick1")
 	
-	("NOTE" . "firebrick2")
-	("INPRO" . "chocolate2")
+	("NOTE" . "firebrick1")
+	("INPRO" . "chocolate1")
 	("CHECK" . "gold2")
 	("PRINT" . "SpringGreen3")
 
-	("FIX" . "firebrick2")
+	("FIX" . "firebrick1")
 	
-	("DONE" . "DodgerBlue1")))
+	("DONE" . "DeepSkyBlue3")))
 
 (provide 'init-org)
