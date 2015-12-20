@@ -6,7 +6,8 @@
 (setq org-todo-keywords
       '((sequence "TODO" "|" "DONE")
 	(sequence "NOTE" "INPRO" "CHECK" "PRINT" "|" "DONE")
-	(sequence "FIX" "|" "DONE")))
+	(sequence "FIX" "|" "DONE")
+	(sequence "ADD" "|" "DONE")))
 
 (setq org-todo-keyword-faces
       '(("TODO" . "firebrick1")
@@ -17,6 +18,8 @@
 	("PRINT" . "SpringGreen3")
 
 	("FIX" . "firebrick1")
+
+	("ADD" . "SlateBlue2")
 	
 	("DONE" . "DeepSkyBlue3")))
 
