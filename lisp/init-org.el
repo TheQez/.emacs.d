@@ -4,9 +4,9 @@
 (setq org-log-done 1)
 
 (setq org-todo-keywords
-      '((sequence "TODO" "|" "DONE")
+      '((sequence "TODO" "PRINT" "|" "DONE")
 	(sequence "NOTE" "INPRO" "CHECK" "PRINT" "|" "DONE")
-	(sequence "FIX" "|" "DONE")
+	(sequence "FIX" "PRINT" "|" "DONE")
 	(sequence "ADD" "|" "DONE")))
 
 (setq org-todo-keyword-faces
