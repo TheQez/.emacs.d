@@ -2,6 +2,7 @@
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done 1)
+(setq org-agenda-repeating-timestamp-show-all 0)
 
 (setq org-todo-keywords
       '((sequence "TODO" "PRINT" "|" "DONE")
