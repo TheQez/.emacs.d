@@ -9,16 +9,16 @@
 
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
-;Packages
+;; Packages
 (require 'init-evil)
-(require 'init-org)
 (require 'init-powerline)
+(require 'init-latex-pp)
 
-;;Ui stuff
+;; Ui stuff
 (require 'init-ui)
 
-;;Modes
+;; Modes
 (require 'init-c)
-(require 'init-latex)
+(require 'init-org)
 
 (provide 'init)

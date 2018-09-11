@@ -8,4 +8,4 @@
 	(setq doc-view-ghostscript-program (car (file-expand-wildcards "C:/Program Files/gs/gs*/bin/gswin64.exe")))
 )
 
-(provide 'init-latex)
+(provide 'init-latex-pp)
